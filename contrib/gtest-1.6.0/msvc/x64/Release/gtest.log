@@ -1,0 +1,13 @@
+﻿Build started 1/20/2015 3:16:34 PM.
+     1>Project "C:\PlayGround\HulkTracer\contrib\gtest-1.6.0\msvc\gtest.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.. /I..\include /Zi /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt "..\src\gtest-all.cc"
+         gtest-all.cc
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\PlayGround\HulkTracer\x64\Release\gtest.lib" /NOLOGO /MACHINE:X64 "x64\Release\gtest-all.obj"
+         gtest.vcxproj -> C:\PlayGround\HulkTracer\x64\Release\gtest.lib
+     1>Done Building Project "C:\PlayGround\HulkTracer\contrib\gtest-1.6.0\msvc\gtest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.55

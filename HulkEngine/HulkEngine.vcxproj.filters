@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\GLWindow.cpp" />
+    <ClCompile Include="src\Scene.cpp" />
+    <ClCompile Include="src\hulkTracerMain.cpp" />
+    <ClCompile Include="src\BoundingBoxVisitor.cpp">
+      <Filter>Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DeleteVisitor.cpp">
+      <Filter>Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RigidTransform.cpp">
+      <Filter>Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Node.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StaticMeshNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Intersectable.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SPMatrix.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SseUtils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Settings.cpp" />
+    <ClCompile Include="src\Statistics.cpp" />
+    <ClCompile Include="src\KDTreeCPU.cpp">
+      <Filter>KDTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KDTreeSAH.cpp">
+      <Filter>KDTrees</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GLVisitor.cpp">
+      <Filter>Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GLVisitorCPUTrace.cpp">
+      <Filter>Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GLVisitorGPUTrace.cpp">
+      <Filter>Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GLVisitorGPUTraceSSD.cpp">
+      <Filter>Visitors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="public\FrameBuffer.hpp" />
+    <ClInclude Include="public\Material.hpp" />
+    <ClInclude Include="public\SharedStructs.hpp" />
+    <ClInclude Include="public\AnimatedTransform.hpp">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="public\LoaderInterface.hpp">
+      <Filter>PublicHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="public\BoundingBoxVisitor.hpp">
+      <Filter>Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="public\DeleteVisitor.hpp">
+      <Filter>Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="public\RigidTransform.hpp">
+      <Filter>Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="public\Node.hpp">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="public\StaticMeshNode.hpp">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="public\Intersectable.hpp">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="public\DynamicMeshNode.hpp">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="public\hulk_assert.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="public\SPMatrix.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="public\SseUtils.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="public\Stack.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="public\util.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="public\MeshNode.hpp">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="public\Scene.hpp">
+      <Filter>PublicHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="public\Visitor.hpp">
+      <Filter>Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GLVisitorT.hpp" />
+    <ClInclude Include="src\GLWindow.h" />
+    <ClInclude Include="src\settings.hpp" />
+    <ClInclude Include="src\SharedFunctions.hpp" />
+    <ClInclude Include="src\Statistics.hpp" />
+    <ClInclude Include="src\KDTreeCPU.hpp">
+      <Filter>KDTrees</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RingBuffer.h" />
+    <ClInclude Include="src\GLVisitor.hpp">
+      <Filter>Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GLVisitorCPUTrace.hpp">
+      <Filter>Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GLVisitorGPUTrace.hpp">
+      <Filter>Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GLVisitorGPUTraceSSD.hpp">
+      <Filter>Visitors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{6573e538-6f85-458c-8d4d-d46b3e5ab242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nodes">
+      <UniqueIdentifier>{a6b05c3f-592f-4efb-aaf9-72d0a39d24c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visitors">
+      <UniqueIdentifier>{e79326a3-3aa9-4d1e-a55f-ef2cc1fe77f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PublicHeaders">
+      <UniqueIdentifier>{4df06fea-d623-4275-86ac-cb3c6d6f61c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KDTrees">
+      <UniqueIdentifier>{06e0a93e-cb9e-4ffd-a347-7c6a84ca85f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenCL kernels">
+      <UniqueIdentifier>{5407e1ab-2e0f-4acb-89f5-6ba415424690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{1ce14b06-f820-419b-b96f-44c5aef127de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\GPUTrace.cl">
+      <Filter>OpenCL kernels</Filter>
+    </None>
+    <None Include="scripts\prepare_kernel_source.py">
+      <Filter>scripts</Filter>
+    </None>
+    <None Include="src\GPUTrace_bruteforce.cl">
+      <Filter>OpenCL kernels</Filter>
+    </None>
+    <None Include="src\GPU_common.cl">
+      <Filter>OpenCL kernels</Filter>
+    </None>
+    <None Include="src\GPUTrace_buildCache.cl">
+      <Filter>OpenCL kernels</Filter>
+    </None>
+    <None Include="src\GPUTrace_stackless.cl">
+      <Filter>OpenCL kernels</Filter>
+    </None>
+    <None Include="src\GPUTrace_shortStack.cl">
+      <Filter>OpenCL kernels</Filter>
+    </None>
+    <None Include="src\GPUTrace_LDSshortStack.cl">
+      <Filter>OpenCL kernels</Filter>
+    </None>
+    <None Include="src\ShadePicture.cl">
+      <Filter>OpenCL kernels</Filter>
+    </None>
+  </ItemGroup>
+</Project>

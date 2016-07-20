@@ -1,0 +1,17 @@
+0.) implement clear tear down.
+1.) add LDS support.
+2.) implement stackless traversal.
+3.) Add Kiln back-up.
+4.) compact tree node to two dwords.
+3.) move to static scene support.
+5.) reduce all GPU vectors to float3.
+6.) implement material/texture support.
+
+7.) fix rotation discrepancy between GL and GLT.
+8.) Calculate lightening as a second pass.
+9.) add support for OBJ file load in case vertex normal is specified.
+
+..\OBJLoader\Models\Teapot\Teapot.obj
+..\BartLoader\robots\robot.aff
+..\BartLoader\kitchen\kitchen.aff
+..\BartLoader\robots\robot.aff --renderType=CPUTrace --fixedTic=1 --dumpStats=1 --saveImages=1
